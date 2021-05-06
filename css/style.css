@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: StagSans,'Roboto Mono',Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+ @font-face {
+  font-family:'StagSans','', monospace;
+  src: url(./fonts/StagSans.woff);
+ }
+   
+
+}
+#main{
+  padding: 30px 0px;
+  background-image: url("../images/Aster-main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
+.form-content{
+  background-color: #fff;
+  padding: 25px;
+}
+.btn-submit{
+  border: none;
+  padding: 5px 20px;
+  background-color: #dd5a6a;
+  border-radius: 2px;
+  box-shadow: 3px solid #d4d4d4;
+}
+
+
+
+.main-heading-bottom>ul,li{
+  list-style: none;
+  text-decoration: none;
+  display: inline-flex;
+}
+.Aster{
+  font-size: 3rem;
+}
+.main-list-names{
+  color: #fff;
+  
+}
+.main-list-names>li::after{
+  content: "|";
+  margin: 0px 30px;
+  
+  
+}
+.main-list-names>li:last-child:after{
+  content: "";
+  
+}
+.rectangle {
+  background: radial-gradient(-35.15% 100%, #2EC4B8 0%, #6078EA 100%);
+  border-radius: 4px;
+  width: 586px;
+  height: 95px;
+}
+.bone-marrow-transpla{
+  color: #fff;
+  font-family: StagSans;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 7px 10px;
+  text-align: left;
+  background-image: radial-gradient(#2EC4B8 0%, #6078EA 100%);
+  border-radius: 4px;
+}
+.replacement-of-disea {
+  color: #000000;
+  font-family: StagSans;
+  font-size: 17px;
+  line-height: 20px;
+
+  text-align: left;
+}
+
+
+/* doctors  */
+.doctor-item-box{
+background-color: #F9F9FF;
+height: auto;
+padding: 50px;
+text-align: center;
+}
+.doctor-description{
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.doctors-image-1{
+  margin-bottom: 20px;
+}
+.doctor-heading-name{
+  color: #1D5AA6;
+  font-family: StagSans;
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  font-weight: bold;
+}
+.doctor-sub-heading{
+  color: #1D5AA6;
+  font-family: StagSans;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+.dr-vijay-agarwal-copy{
+  position: relative;
+}
+.dr-vijay-agarwal-copy::after{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #22b78e;
+  margin: 0 auto;
+  position: absolute;
+  bottom:  4px;
+  left: 0;
+  right: 0;
+
+  
+}
+.dr-description-text{
+  color: #000000;
+  font-family: StagSans;
+  font-size: 15px;
+  line-height: 20px;
+}
+.know-more{
+  border: none;
+  color: #fff;
+  background-image: radial-gradient( #17EAD9 0%, #6078EA 100%);
+  border-radius: 4px;
+  width: 129px;
+  height: 49px;
+}
+/* doctors */
+
+/* types and signs  */
+#types-signs{
+  padding: 50px 0px;
+}
+.types-signs{
+  background-color: #fff;
+}
+.autologous-bone-marr{
+  color: #000000;
+  font-family: StagSans;
+  font-size: 14px;
+  line-height: 39px;
+ 
+}
+.types-text>li::before{
+  content: url('../images/plus-icon.png');
+  margin : 0px 20px;
+}
+.warning-signs{
+  padding: 30px 0px;
+}
+.immune-def{
+  
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAFF;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+    width: 255px;
+    height: 170px;
+    padding: 15px;
+    margin: 10px;
+
+}
+.immune-def-text{
+  padding: 7px 0px;
+}
+
+/* Conditions */
+.accordion .card-header:after {
+
+  content: url("../images/caret-icon.png");
+  float: right; 
+}
+.accordion .card-header.collapsed:after {
+  content: url("../images/caret-icon.png");
+}
+.card{
+  
+}
+.card-title{
+  color: #1D5AA6;
+  font-family: StagSans;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: 22px;
+}
+
+.card-header{
+  background-color: #fff !important;
+ 
+  /* border: 1px solid #fff; */
+}
+.condition-collapse>li::before{
+  content: url("../images/double-tick-icon.png");
+  padding: 0px 20px;
+}
+
+  
+
+
+/* conditions */
+
+/* Testomonial Slider */
+
+.Tesminoal-heading{
+  color:  #22B78E
+}
+.green{
+  color:  #22B78E
+}
+.Testimonial-description{
+  font-size: 15px;
+  line-height: 21px;
+  color: #000000;
+  width: 600px;
+}
+#testomonial-slider{
+  padding: 100px;
+}
+
+.testimonial{
+  text-align: center;
+  padding: 85px 50px 45px 70px;
+  margin: 70px 15px 35px;
+  background: #fff;
+  box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+  position: relative;
+}
+.testimonial .pic{
+  width: 80px;
+  height: 80px;
+ 
+  margin: 0 auto;
+  position: absolute;
+  top: 60px;
+  left: -200px;
+  right: 20px;
+}
+.testimonial .pic img{
+  width: 100%;
+  height: auto;
+}
+.testimonial .description{
+  font-size: 15px;
+  color: #757575;
+  line-height: 27px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.testimonial .description:before{
+  content: url("../images/icon-pie.png");
+  font-family: "FontAwesome";
+  font-size: 32px;
+  color: #77a9dd;
+  position: absolute;
+  top: -125px;
+  right: -35px;
+}
+.testimonial .testimonial-profile{
+  position: relative;
+  margin: 20px 0 10px 0;
+}
+.testimonial .testimonial-profile:after{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #77a9dd;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+}
+.testimonial .title{
+  display: inline-block;
+  font-size: 18px;
+  color: #4a5184;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.testimonial .post{
+  display: inline-block;
+  font-size: 15px;
+  color: #757575;
+  text-transform: capitalize;
+}
+.owl-theme .owl-controls{
+  margin-top: 10px;
+}
+.owl-theme .owl-controls .owl-page span{
+  background: #5e5f5f;
+  opacity: 1;
+  transition: all 0.4s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+  background: #77a9dd;
+}
+.owl-theme .owl-controls .owl-page.active span{
+  width: 22px;
+  height: 12px;
+}
+.btn-book-appointment{
+  border: none;
+  background-color: #004498;
+  color: #fff;
+  padding : 10px 20px;
+  border-radius: 4px;
+  box-shadow: 2px solid #ccc;
+}
+.row-btn{
+  text-align: center;
+}
+
+/* Footer  */
+footer{
+  background-color: #272727;
+  padding: 80px;
+  text-align: center;
+  height: 256px;
+  width: auto;
+  color: #fff;
+}
+.footer-hr{
+  background-color: #fff;
+  opacity: 0.4;
+}
